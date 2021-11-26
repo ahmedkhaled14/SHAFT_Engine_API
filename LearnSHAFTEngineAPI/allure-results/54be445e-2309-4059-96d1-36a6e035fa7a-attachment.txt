@@ -1,0 +1,36 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[API.tests.RestFullBooker.CreateBooking]
+Test Description:	[ Create New Booking ]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:24.0895 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:24.0921 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:24.0948 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:24.0977 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:25.0010 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:25.0038 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/RestFullBooker/APIBookerTestData.json"]. @25-11-2021 23:30:25.0102 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @25-11-2021 23:30:26.0006 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @25-11-2021 23:30:26.0011 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @25-11-2021 23:30:26.0025 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking" | Content Type: "application/json" | Response Time: "848ms"]. @25-11-2021 23:30:26.0056 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @25-11-2021 23:30:26.0058 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @25-11-2021 23:30:26.0534 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @25-11-2021 23:30:26.0536 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [bookingid]. @25-11-2021 23:30:26.0558 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @25-11-2021 23:30:27.0421 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @25-11-2021 23:30:27.0423 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @25-11-2021 23:30:27.0424 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/37" | Content Type: "*/*" | Response Time: "850ms"]. @25-11-2021 23:30:27.0470 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @25-11-2021 23:30:27.0472 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @25-11-2021 23:30:27.0475 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//RestFullBooker/booking.json"]. @25-11-2021 23:30:27.0477 PM
+[ReportManager] Comparing the provided API response with the file at this path "E:\programming\LearnSHAFTEngineAPI\src\test\resources\testDataFiles\RestFullBooker\booking.json", comparison type "EQUALS" @25-11-2021 23:30:27.0478 PM
+[ReportManager] API Action [CompareJSON] successfully performed. With the following test data [E:\programming\LearnSHAFTEngineAPI\src\test\resources\testDataFiles\RestFullBooker\booking.json]. @25-11-2021 23:30:27.0480 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "E:\programming\LearnSHAFTEngineAPI\src\test\resources\testDataFiles\RestFullBooker\booking.json"]. @25-11-2021 23:30:27.0481 PM
+[ReportManager] File Action [ReadFromFile] successfully performed. With the following test data [File Path: "E:\programming\LearnSHAFTEngineAPI\src\test\resources\testDataFiles\RestFullBooker\booking.json"]. @25-11-2021 23:30:27.0482 PM
+[ReportManager] Assertion Passed:  The Booking is Created @25-11-2021 23:30:27.0486 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected JSON Value] @25-11-2021 23:30:27.0491 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual JSON Value] @25-11-2021 23:30:27.0493 PM
+[ReportManager] Assertion [ValidateJSONFileContent] PASSED. Expected [Response data should match the JSON File in this path 'E:\programming\LearnSHAFTEngineAPI\src\test\resources\testDataFiles\RestFullBooker\booking.json'] and Actual [TRUE]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @25-11-2021 23:30:27.0493 PM

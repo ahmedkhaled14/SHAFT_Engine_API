@@ -1,0 +1,9 @@
+{
+  "firstName": "Ahmed",
+  "lastName": "Khaled",
+  "totalprice": 100,
+  "depositpaid": true,
+  "checkinDate": "2018-01-01",
+  "checkoutDate": "2019-01-01",
+  "additionalNeeds": "Breakfast"
+}
